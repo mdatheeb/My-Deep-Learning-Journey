@@ -42,8 +42,9 @@ The output layer has one sigmoid neuron that gives the probability of the malign
 ```
 .
 ├── breast_cancer_nn_wdbc.py   # full pipeline script
-├── wdbc.data                  # dataset
-├── wdbc.names                 # dataset description
+├──data
+|   ├── wdbc.data                  # dataset
+|   ├── wdbc.names                 # dataset description
 └── README.md
 ```
 
@@ -82,15 +83,6 @@ The script prints the dataset summary and the model summary, trains the network,
 - Exact accuracy varies slightly between runs because of random weight initialization and floating-point differences.
 - For a medical-style problem, accuracy alone is not enough. Check **recall for the malignant class**, since missing a malignant case is the costly error.
 
-## Results
-
-Fill these in after running the script:
-
-| Metric | Value |
-|--------|-------|
-| Test accuracy | |
-| Malignant recall | |
-| Malignant precision | |
 
 ## Possible improvements
 
